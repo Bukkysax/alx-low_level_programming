@@ -3,11 +3,10 @@
 /**
  * print_sign - print thre sign of a num
  * @n: the num to be checked for
- * Returns: 1 and prints + if n is greater than zero
- * 0 and prints 0 if n is zero
- * -1 and prints - if n is less than zero
+ * Return: 1 if number is greater than zero
+ * 0 of number is zero
+ * -1 if number is less than zero
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
@@ -23,5 +22,5 @@ int print_sign(int n)
 	else
 	{
 		_putchar('-');
-		return (0);
+		return (-1);
 	}
